@@ -1,0 +1,76 @@
+.sidebar {
+    width: 235px;
+}
+
+.main-panel {
+    width: calc(100% - 235px);
+}
+
+.a11 {
+    width: 25% aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+}
+.a12 {
+    width: 75% aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+}
+.a13 {
+    width: 90% aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+}
+.a14 {
+    width: 50% aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+}
+.a15 {
+    width: 35% aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"
+}
+.a16 {
+    width: 65% aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
+}
+.a17 {
+    width: 20% aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+}
+.row {
+    display: flex;
+    flex-wrap : wrap;
+}
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.card-temp {
+    height: 20rem;
+    width: 14rem;
+    background-color:  #e2e6e9;
+}
+.icon-large {
+    font-size: 1.2rem;  
+}
+.icon-size {
+    font-size: 1.5rem;
+}
+.word-size{
+    font-size: 1.7rem;
+}
+.product-image {
+    height: 130px;
+    cursor: pointer;
+}
+
+.image-looks {
+    cursor: pointer;
+}
+  
+.deleteItemBtn {
+    bottom: 0%;
+    right: 0%;
+    cursor: pointer;
+}
+  
+.group-img .deleteItemBtn {
+    visibility: hidden;
+    opacity: 0;
+}
+  
+.group-img:hover .deleteItemBtn {
+    visibility: visible;
+    opacity: 1;
+}
